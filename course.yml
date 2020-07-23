@@ -1,0 +1,125 @@
+chunks:
+- content: ''
+  flows:
+  - description: !!python/object/apply:django.db.models.base.model_unpickle
+      args:
+      - !!python/tuple
+        - coursestmp
+        - CourseTmpFlow
+      state:
+        _django_version: 2.2.11
+        _state: !!python/object:django.db.models.base.ModelState
+          adding: false
+          db: default
+          fields_cache:
+            course_tmp: !!python/object/apply:django.db.models.base.model_unpickle
+              args:
+              - !!python/tuple
+                - coursestmp
+                - CourseTmp
+              state:
+                _django_version: 2.2.11
+                _state: !!python/object:django.db.models.base.ModelState
+                  adding: false
+                  db: default
+                  fields_cache: {}
+                _uncommitted_filefields: []
+                accepts_enrollment: true
+                changed_at: 2020-07-23 20:17:07.479092+00:00
+                changed_by_id: null
+                content: null
+                course_id: null
+                course_type: 2
+                create_meeting: false
+                created_at: 2020-07-23 16:19:36.229880+00:00
+                created_by_id: 1
+                deleted_at: null
+                end_date: 2020-07-23
+                enrollment_approval_required: false
+                errors: null
+                hidden: true
+                id: 4
+                identifier: evento-de-finanzas
+                introduction: '<p><span style="font-family: &quot;Open Sans&quot;,
+                  Arial, sans-serif; text-align: justify;">Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Nullam in augue in dolor blandit ornare.
+                  Nullam ac interdum tellus. Mauris sagittis feugiat odio in ultrices.
+                  Nam mattis interdum ex, faucibus viverra ligula. Cras congue, est
+                  id sollicitudin commodo, nunc ante sollicitudin mauris, id vulputate
+                  felis eros et lacus. Maecenas et feugiat ligula, eget malesuada
+                  diam. Suspendisse rhoncus ornare dolor et tempus. Suspendisse potenti.
+                  Aliquam justo ante, iaculis eu libero et, vestibulum feugiat nisl.
+                  Aliquam pulvinar tellus est, vel bibendum eros iaculis sit amet.
+                  Phasellus accumsan nibh ut augue lobortis scelerisque.</span></p><p><span
+                  style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align:
+                  justify;"><br></span></p><p><span style="font-family: &quot;Open
+                  Sans&quot;, Arial, sans-serif; text-align: justify;"><br></span><br></p>'
+                is_active: true
+                listed: true
+                logs: null
+                min_approval_percent: 75
+                name: Evento de Finanzas
+                number: ev1
+                preapproval_require_verified_inst_id: true
+                repository: 1
+                repository_id: null
+                repository_key: null
+                repository_ssh_url: null
+                repository_url: null
+                start_date: 2020-07-23
+                status: 1
+                time_period: Verano 020
+                url_meeting: ''
+                version: 0
+        changed_at: 2020-07-23 19:56:43.253385+00:00
+        changed_by_id: null
+        completion_text: '<p><span style="font-family: &quot;Open Sans&quot;, Arial,
+          sans-serif; text-align: justify;">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Curabitur id quam massa. Maecenas pharetra nulla a diam
+          interdum suscipit. Mauris eu elit tellus. Donec in tincidunt libero. Vestibulum
+          viverra, dolor ac mattis dapibus, enim ligula aliquam tellus, eget mollis
+          purus dolor non elit. Ut sodales enim quis lacus tincidunt, eu tempor massa
+          interdum. Pellentesque eget odio eget metus luctus ultrices. Fusce vitae
+          ante id massa bibendum euismod.</span><br></p>'
+        content: '<p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif;
+          text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Curabitur id quam massa. Maecenas pharetra nulla a diam interdum suscipit.
+          Mauris eu elit tellus. Donec in tincidunt libero. Vestibulum viverra, dolor
+          ac mattis dapibus, enim ligula aliquam tellus, eget mollis purus dolor non
+          elit. Ut sodales enim quis lacus tincidunt, eu tempor massa interdum. Pellentesque
+          eget odio eget metus luctus ultrices. Fusce vitae ante id massa bibendum
+          euismod.</span><br></p>'
+        course_tmp_id: 4
+        created_at: 2020-07-23 19:56:43.243605+00:00
+        created_by_id: 1
+        credit_percent: 100
+        deadline_quiz: 2020-07-30 14:56:29+00:00
+        deleted_at: null
+        description: EL UNICO QUIZ DEL EVENTO, PARA RECIBIR EL CERTIFICADO
+        flow_id: quiz12
+        flow_type: 3
+        grade_aggregation_strategy: use_earliest
+        id: 12
+        is_active: true
+        max_sessions: 1
+        next_flow_id: null
+        position: 0
+        shuffle: true
+        title: QUIZ 1
+        title_next_flow: null
+    flow_id: quiz12
+    title: QUIZ 1
+  id: welcome
+  introduction: '<p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif;
+    text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nullam in augue in dolor blandit ornare. Nullam ac interdum tellus. Mauris sagittis
+    feugiat odio in ultrices. Nam mattis interdum ex, faucibus viverra ligula. Cras
+    congue, est id sollicitudin commodo, nunc ante sollicitudin mauris, id vulputate
+    felis eros et lacus. Maecenas et feugiat ligula, eget malesuada diam. Suspendisse
+    rhoncus ornare dolor et tempus. Suspendisse potenti. Aliquam justo ante, iaculis
+    eu libero et, vestibulum feugiat nisl. Aliquam pulvinar tellus est, vel bibendum
+    eros iaculis sit amet. Phasellus accumsan nibh ut augue lobortis scelerisque.</span></p><p><span
+    style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;"><br></span></p><p><span
+    style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;"><br></span><br></p>'
+  rules: []
+  title: Evento de Finanzas
