@@ -18,28 +18,28 @@ groups:
 - id: quiz_start
   pages:
   - answers:
+    - <plain>cuatro
     - rtol: 0.0
       type: float
       value: '5'
-    - <plain>cuatro
     id: quizquestion14
     prompt: ''
     title: Cuanto es 4+4?
     type: TextQuestion
     value: 100.0
   - choices:
-    - '6'
-    - ~CORRECT~ 2
     - '1'
+    - ~CORRECT~ 2
+    - '6'
     id: quizquestion15
     prompt: ''
     title: Cuanto es 6/3?
     type: ChoiceQuestion
     value: 100.0
   - choices:
-    - 2+5
-    - ~CORRECT~ 3+3
     - ~CORRECT~ 5+1
+    - ~CORRECT~ 3+3
+    - 2+5
     credit_mode: exact
     id: quizquestion16
     prompt: ''
